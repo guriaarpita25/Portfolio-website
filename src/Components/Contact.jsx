@@ -72,21 +72,26 @@ const Contact = () => {
         </div>
       </div>
 
-     <footer className="bg-black text-gray-300 py-8 px-6">
-  <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 px-2">
+   <footer className="bg-black text-gray-300 py-10 px-6">
+  <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
-    <div>
+    <div className="text-center sm:text-left">
       <h3 className="text-xl font-semibold text-white mb-4">About</h3>
       <p className="text-gray-400 leading-6 font-[Oswald,sans-serif]">
-        I'm Arpita Guria, a fresher frontend developer specializing in modern UI development using React, JavaScript and Tailwind CSS.
+        I'm Arpita Guria, a fresher frontend developer specializing in modern UI
+        development using React, JavaScript and Tailwind CSS.
       </p>
 
-      <div className="flex gap-4 mt-6">
-        <a href="https://www.linkedin.com/in/arpita-guria-003467395/" target="_blank" className="hover:scale-110 transition">
+      <div className="flex justify-center sm:justify-start gap-4 mt-6">
+        <a href="https://www.linkedin.com/in/arpita-guria-003467395/"
+           target="_blank"
+           className="hover:scale-110 transition">
           <i className="fa-brands fa-linkedin text-3xl text-blue-500"></i>
         </a>
 
-        <a href="https://github.com/guriaarpita25" target="_blank" className="hover:scale-110 transition">
+        <a href="https://github.com/guriaarpita25"
+           target="_blank"
+           className="hover:scale-110 transition">
           <i className="fa-brands fa-github text-3xl hover:text-gray-400"></i>
         </a>
 
@@ -96,9 +101,10 @@ const Contact = () => {
       </div>
     </div>
 
-    <div>
-      <h3 className="text-xl font-semibold text-white mb-4 ml-[55px]">Links</h3>
-      <ul className="space-y-2 text-gray-400 ml-[55px]">
+
+    <div className="text-center sm:text-left">
+      <h3 className="text-xl font-semibold text-white mb-4">Links</h3>
+      <ul className="space-y-2 text-gray-400">
         <li className="hover:text-[#ffbd39] cursor-pointer">→ Home</li>
         <li className="hover:text-[#ffbd39] cursor-pointer">→ About</li>
         <li className="hover:text-[#ffbd39] cursor-pointer">→ Educations</li>
@@ -108,7 +114,7 @@ const Contact = () => {
       </ul>
     </div>
 
-    <div>
+    <div className="text-center sm:text-left">
       <h3 className="text-xl font-semibold text-white mb-4">Services</h3>
       <ul className="space-y-2 text-gray-400">
         <li className="hover:text-[#ffbd39] cursor-pointer">→ Web Design</li>
@@ -118,21 +124,20 @@ const Contact = () => {
       </ul>
     </div>
 
-    <div>
+    <div className="text-center sm:text-left">
       <h3 className="text-xl font-semibold text-white mb-4">Have Questions?</h3>
 
       <div className="space-y-4 text-gray-400">
-        <p className="flex items-center gap-2">
-          <i className="ri-map-pin-fill text-[#ffbd39]"></i>
-          Kolkata, India
+        <p className="flex justify-center sm:justify-start items-center gap-2">
+          <i className="ri-map-pin-fill text-[#ffbd39]"></i> Kolkata, India
         </p>
-        <p className="flex items-center gap-2">
-          <i className="ri-phone-fill text-[#ffbd39]"></i>
-          +91 8967850263
+
+        <p className="flex justify-center sm:justify-start items-center gap-2">
+          <i className="ri-phone-fill text-[#ffbd39]"></i> +91 8967850263
         </p>
-        <p className="flex items-center gap-2">
-          <i className="ri-mail-fill text-[#ffbd39]"></i>
-          guriaarpita248@gmail.com
+
+        <p className="flex justify-center sm:justify-start items-center gap-2">
+          <i className="ri-mail-fill text-[#ffbd39]"></i> guriaarpita248@gmail.com
         </p>
       </div>
     </div>
@@ -142,6 +147,7 @@ const Contact = () => {
     © {new Date().getFullYear()} Arpita Guria — All Rights Reserved.
   </div>
 </footer>
+
 
     </>
   );
