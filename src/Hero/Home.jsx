@@ -3,7 +3,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div id='home' className="px-6 md:px-20 py-34">
+        <div id='home' className="px-6 md:px-20 py-24">
             <div className="flex flex-col items-center text-center gap-5">
 
                 <img 

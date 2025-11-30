@@ -30,7 +30,7 @@ const Projects = () => {
       <h2 className="text-center text-4xl font-bold tracking-wide mb-6 text-[#ffbd39]">
         My Projects
       </h2>
-      <p className="text-center text-xl font-bold mb-20">"Explore my portfolio of projects, where I apply my expertise in web <br />
+      <p className="text-center text-xl font-bold mb-20 ">"Explore my portfolio of projects, where I apply my expertise in web <br />
         development, UI/UX design, and Android development to build innovative and <br />
         impactful digital solutions."</p>
       <div className="grid grid-cols-1 lg:grid-cols-3  gap-12 px-6 md:px-20">
