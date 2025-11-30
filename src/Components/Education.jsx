@@ -52,7 +52,7 @@ const Education = () => {
               {edu.institution}
             </p>
 
-            <p className="text-gray-300 mt-4 leading-relaxed">
+            <p className="text-gray-300 mt-4 leading-relaxed font-[Oswald,sans-serif]">
               {edu.description}
             </p>
           </div>

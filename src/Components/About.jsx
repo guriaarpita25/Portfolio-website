@@ -19,7 +19,7 @@ const About = () => {
                     </div>
 
                     <div className="max-w-xl">
-                        <p className="text-lg md:text-xl">
+                        <p className="text-lg md:text-xl font-[Oswald,sans-serif]">
                             I'm <span className="text-[#ffbd39] font-semibold">Arpita Guria</span>, a web developer
                             specializing in building modern UI using
                             React.js, JavaScript, HTML, CSS, and Tailwind CSS.

@@ -12,10 +12,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
 
-          {/* Logo */}
+       
           <div className="text-3xl font-bold text-white">PORTFOLIO.</div>
 
-          {/* Desktop Menu */}
+          
           <ul className="hidden md:flex items-center gap-7 text-xl text-white">
             {["home", "about", "education", "skills", "projects", "contact"].map((section) => (
               <li key={section}>
@@ -34,20 +34,19 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden text-white"
             onClick={() => setOpen(!open)}
           >
             {open ? (
-              // Close icon
+             
               <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
             ) : (
-              // Hamburger icon
+              
               <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                   d="M4 6h16M4 12h16M4 18h16"
@@ -57,7 +56,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Dropdown Menu */}
+       
         {open && (
           <ul className="md:hidden bg-black text-white text-lg py-5 space-y-4 px-4 animate-slideDown">
             {["home", "about", "education", "skills", "projects", "contact"].map((section) => (

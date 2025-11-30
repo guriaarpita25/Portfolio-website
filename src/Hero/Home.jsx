@@ -22,7 +22,7 @@ const Home = () => {
                 </h1>
 
                 
-                <p className="text-base md:text-xl  text-gray-200 max-w-2xl">
+                <p className="text-base md:text-xl  text-gray-200 max-w-2xl font-[Oswald,sans-serif]">
                     I build clean, responsive, and user-friendly web interfaces using HTML, CSS, 
                     JavaScript, and React. I love turning ideas into real, interactive experiences.
                 </p>
