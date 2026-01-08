@@ -20,11 +20,11 @@ const Projects = () => {
     },
 
     {
-      title: "Time to Travel Page",
-      image: "/projects/travel.png",
-      desc: "A fully responsive travel-themed landing page using React & Tailwind. Smooth scroll and modern UI.",
-      github: "https://github.com/guriaarpita25/Time-to-travel-page",
-      Netlify: "https://steady-choux-31b316.netlify.app/"
+      title: "Event Planner Page",
+      image: "/projects/Eventplanner.png",
+      desc: "A fully responsive Event Planner landing page using HTML,CSS.",
+      github: "https://github.com/guriaarpita25/Event-Planners.git",
+      Netlify: "https://event-planner-arpita.netlify.app/"
     },
   ];
 
@@ -43,7 +43,7 @@ const Projects = () => {
           
             <img
               src={p.image}
-              className="w-full h-[400px] rounded-lg shadow-lg "
+              className="w-full h-[500px] rounded-lg shadow-lg bg-center bg-cover "
               alt={p.title}
             />
 
