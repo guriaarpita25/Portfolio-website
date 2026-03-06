@@ -12,11 +12,11 @@ const Projects = () => {
     },
 
     {
-      title: "Notes App",
-      image: "/projects/notes.png",
-      desc: "A notes application built using React. It stores notes in LocalStorage with edit & delete support.",
-      github: "https://github.com/guriaarpita25/Notes-app",
-      Netlify: "https://notes-app-arpita.netlify.app/"
+      title: "Electric vehicle website",
+      image: "/projects/ev1.png",
+      desc: "Powering the next generation of mobility with advanced electric vehicles. Experience eco-friendly transportation that is efficient, reliable, and built for the future.",
+      github: "https://github.com/guriaarpita25/Electric-vehicle-website",
+      Netlify: "https://ev-guria.netlify.app/"
     },
 
     {
